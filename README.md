@@ -1,6 +1,6 @@
 # Ticket-Booking-System
 This system is designed to manage parking spaces, handle vehicle entry/exit, and process payments.
-##Class: User
+## Class: User
 Attribute: 
 ```
 userId: int
@@ -13,9 +13,9 @@ searchEvent()
 bookTicket()
 cancelTicket()
 ```
-##Class: Event
-```
+## Class: Event
 Attribute:
+```
 eventId: int
 location: string
 date: date
@@ -25,9 +25,9 @@ Methods:
 getEventDetails()
 updateAvailability()
 ```
-##Class: Ticket
-```
+## Class: Ticket
 Attribute:
+```
 userId: int
 ticketId: int 
 eventId: int
@@ -38,9 +38,9 @@ Methods:
 generateTicket()
 updateStatus()
 ```
-##Class: Payment
+## Class: Payment
+Atribute:
 ```
-Atribute
 payId: int
 ticketId: int
 amount: double
@@ -51,3 +51,4 @@ Methods:
 ```
 processPayment()
 ```
+# Example Code (Python)
